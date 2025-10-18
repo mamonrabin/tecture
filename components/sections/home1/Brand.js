@@ -1,6 +1,6 @@
 'use client'
 import Link from "next/link"
-import ModalVideo from 'react-modal-video'
+
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 

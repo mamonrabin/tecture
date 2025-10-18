@@ -1,7 +1,7 @@
 'use client'
 import ReactCurvedText from 'react-curved-text'
 import { useState } from 'react'
-import ModalVideo from 'react-modal-video'
+// import ModalVideo from 'react-modal-video'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
@@ -131,7 +131,7 @@ export default function Video() {
             </div>
         </section>
         {/* Video One End */}
-        <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
+        {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} /> */}
         </>
     )
 }

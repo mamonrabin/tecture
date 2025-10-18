@@ -1,7 +1,7 @@
 
 'use client'
 import Link from "next/link"
-import ModalVideo from 'react-modal-video'
+// import ModalVideo from 'react-modal-video'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { useState } from 'react'
@@ -130,7 +130,7 @@ export default function Banner() {
             </Swiper>
         </section>
         {/*Main Sllider Start */}
-        <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
+        {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} /> */}
        
 
 
